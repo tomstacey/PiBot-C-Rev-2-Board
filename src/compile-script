@@ -1,0 +1,12 @@
+gcc -o setup -l rt setup.c -l bcm2835
+gcc -o forward -l rt forward.c -l bcm2835
+gcc -o rev -l rt rev.c -l bcm2835
+gcc -o left -l rt left.c -l bcm2835
+gcc -o right -l rt right.c -l bcm2835
+gcc -o stop -l rt stop.c -l bcm2835
+gcc -o pidrive1 -l rt pidrive1.c -l bcm2835
+gcc -o test -l rt test.c -l bcm2835
+gcc -o msdelay -l rt msdelay.c -l bcm2835
+gcc -o menu -l rt menu.c -l bcm2835
+gcc -o attiny13_killer_switch -l rt attiny13_killer_switch.c -l bcm2835
+
